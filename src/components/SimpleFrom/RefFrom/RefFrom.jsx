@@ -5,7 +5,7 @@ const RefFrom = () => {
     const nameRef =useRef(null);
     const passwordRef=useRef(null);
     const emailRef=useRef(null)
-    const errorRef=useRef('');
+    
     const handleSubmit =e=>{
         e.preventDefault();
      
